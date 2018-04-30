@@ -1,0 +1,110 @@
+== application started at Apr 29 2018 12:49:19
+OTClient 0.6.6 rev 0 (By Drakopoulos) built on Jun 22 2016 for arch x86
+ERROR: Unable to load texture '/images/game/battle/camera': unable to open file '/images/game/battle/camera.png': O sistema não pode encontrar o caminho especificado.
+ERROR: /game_pokemon/pokemon.lua:270: attempt to index a nil value
+ERROR: unable to load shader source form file '/shaders/default.frag': unable to open file '/shaders/default.frag': O sistema não pode encontrar o caminho especificado.
+ERROR: failed to compile shader: 
+ERROR: unable to load fragment shader 'Default' from source file '/shaders/default.frag'
+ERROR: unable to load shader source form file '/shaders/bloom.frag': unable to open file '/shaders/bloom.frag': O sistema não pode encontrar o caminho especificado.
+ERROR: failed to compile shader: 
+ERROR: unable to load fragment shader 'Bloom' from source file '/shaders/bloom.frag'
+ERROR: unable to load shader source form file '/shaders/sepia.frag': unable to open file '/shaders/sepia.frag': O sistema não pode encontrar o caminho especificado.
+ERROR: failed to compile shader: 
+ERROR: unable to load fragment shader 'Sepia' from source file '/shaders/sepia.frag'
+ERROR: unable to load shader source form file '/shaders/grayscale.frag': unable to open file '/shaders/grayscale.frag': O sistema não pode encontrar o caminho especificado.
+ERROR: failed to compile shader: 
+ERROR: unable to load fragment shader 'Grayscale' from source file '/shaders/grayscale.frag'
+ERROR: unable to load shader source form file '/shaders/pulse.frag': unable to open file '/shaders/pulse.frag': O sistema não pode encontrar o caminho especificado.
+ERROR: failed to compile shader: 
+ERROR: unable to load fragment shader 'Pulse' from source file '/shaders/pulse.frag'
+ERROR: unable to load shader source form file '/shaders/oldtv.frag': unable to open file '/shaders/oldtv.frag': O sistema não pode encontrar o caminho especificado.
+ERROR: failed to compile shader: 
+ERROR: unable to load fragment shader 'Old Tv' from source file '/shaders/oldtv.frag'
+ERROR: unable to load shader source form file '/shaders/fog.frag': unable to open file '/shaders/fog.frag': O sistema não pode encontrar o caminho especificado.
+ERROR: failed to compile shader: 
+ERROR: unable to load fragment shader 'Fog' from source file '/shaders/fog.frag'
+ERROR: Unable to load module 'ControlShaders': LUA ERROR:
+/game_effect/shaders.lua:31: attempt to index local 'shader' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_effect/shaders.lua:31: in function 'init'
+	/game_effect/shaders.otmod:12:[@onLoad]:1: in main chunk
+	[C]: in function 'autoLoadModules'
+	/init.lua:49: in main chunk
+Startup done :]
+== application started at Apr 29 2018 13:23:47
+OTClient 0.6.6 rev 0 (By Drakopoulos) built on Jun 22 2016 for arch x86
+ERROR: Unable to load texture '/images/game/battle/camera': unable to open file '/images/game/battle/camera.png': O sistema não pode encontrar o caminho especificado.
+ERROR: /game_pokemon/pokemon.lua:270: attempt to index a nil value
+ERROR: unable to load shader source form file '/shaders/default.frag': unable to open file '/shaders/default.frag': O sistema não pode encontrar o caminho especificado.
+ERROR: failed to compile shader: 
+ERROR: unable to load fragment shader 'Default' from source file '/shaders/default.frag'
+ERROR: unable to load shader source form file '/shaders/bloom.frag': unable to open file '/shaders/bloom.frag': O sistema não pode encontrar o caminho especificado.
+ERROR: failed to compile shader: 
+ERROR: unable to load fragment shader 'Bloom' from source file '/shaders/bloom.frag'
+ERROR: unable to load shader source form file '/shaders/sepia.frag': unable to open file '/shaders/sepia.frag': O sistema não pode encontrar o caminho especificado.
+ERROR: failed to compile shader: 
+ERROR: unable to load fragment shader 'Sepia' from source file '/shaders/sepia.frag'
+ERROR: unable to load shader source form file '/shaders/grayscale.frag': unable to open file '/shaders/grayscale.frag': O sistema não pode encontrar o caminho especificado.
+ERROR: failed to compile shader: 
+ERROR: unable to load fragment shader 'Grayscale' from source file '/shaders/grayscale.frag'
+ERROR: unable to load shader source form file '/shaders/pulse.frag': unable to open file '/shaders/pulse.frag': O sistema não pode encontrar o caminho especificado.
+ERROR: failed to compile shader: 
+ERROR: unable to load fragment shader 'Pulse' from source file '/shaders/pulse.frag'
+ERROR: unable to load shader source form file '/shaders/oldtv.frag': unable to open file '/shaders/oldtv.frag': O sistema não pode encontrar o caminho especificado.
+ERROR: failed to compile shader: 
+ERROR: unable to load fragment shader 'Old Tv' from source file '/shaders/oldtv.frag'
+ERROR: unable to load shader source form file '/shaders/fog.frag': unable to open file '/shaders/fog.frag': O sistema não pode encontrar o caminho especificado.
+ERROR: failed to compile shader: 
+ERROR: unable to load fragment shader 'Fog' from source file '/shaders/fog.frag'
+ERROR: Unable to load module 'ControlShaders': LUA ERROR:
+/game_effect/shaders.lua:31: attempt to index local 'shader' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_effect/shaders.lua:31: in function 'init'
+	/game_effect/shaders.otmod:12:[@onLoad]:1: in main chunk
+	[C]: in function 'autoLoadModules'
+	/init.lua:49: in main chunk
+Startup done :]
+RC Sounds: New sound area detected:
+  Position: {x=1574, y=1695, z=7}
+  Music: music/Smile Town.ogg
+RC Sounds: New sound area detected:
+  Position: {x=1579, y=1702, z=7}
+  Music: music/Fairy Tail - Main.ogg
+RC Sounds: New sound area detected:
+  Position: {x=1588, y=1708, z=7}
+  Music: music/Smile Town.ogg
+RC Sounds: New sound area detected:
+  Left music area.
+RC Sounds: New sound area detected:
+  Position: {x=1564, y=1709, z=7}
+  Music: music/Smile Town.ogg
+RC Sounds: New sound area detected:
+  Left music area.
+Exiting application..
+ERROR: Unable to unload module 'Som': LUA ERROR:
+/rc_sound/rcsound.lua:160: attempt to index a nil value
+stack traceback:
+	[C]: ?
+	/rc_sound/rcsound.lua:160: in function 'setLabel'
+	/rc_sound/rcsound.lua:154: in function 'stopSound'
+	/rc_sound/rcsound.lua:85: in function 'onGameEnd'
+	/rc_sound/rcsound.lua:74: in function 'terminate'
+	/game_som/som.otmod:13:[@onUnload]:1: in main chunk
+WARNING: attempt to destroy widget 'tvCamWindow' two times
+WARNING: attempt to destroy widget 'channelsWindow' two times
+WARNING: attempt to destroy widget 'channelsWindow' two times
+WARNING: attempt to destroy widget 'tvCamWindow' two times
+ERROR: Unable to unload module 'game_loot': LUA ERROR:
+/game_loot/loot.lua:44: attempt to index global 'lootWindow' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_loot/loot.lua:44: in function 'terminate'
+	/game_loot/loot.otmod:9:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'client_terminal': LUA ERROR:
+/client_terminal/terminal.lua:200: attempt to index upvalue 'terminalButton' (a nil value)
+stack traceback:
+	[C]: ?
+	/client_terminal/terminal.lua:200: in function 'terminate'
+	/client_terminal/terminal.otmod:9:[@onUnload]:1: in main chunk
